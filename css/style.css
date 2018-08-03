@@ -1,0 +1,90 @@
+
+#logo{
+  color: white;
+}
+.navbar-fixed{
+  position: fixed;
+  z-index: 3;
+  text-align: center;
+}
+.header {
+  text-align: center;
+  margin-bottom: 80px;
+
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  background: royalblue;
+}
+#profile-pic{
+  border-radius: 30%;
+}
+
+.main {
+  color: red;
+}
+
+.links {
+  text-align: center;
+  background: gray;
+}
+
+#profile-pic {
+
+  height: auto;
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 5%;
+}
+
+#aboutme {
+  background: midnightblue;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: -20px auto; 
+  display: inline-flex; 
+  padding-left: 5%;
+  width: 300px;
+}
+
+#aboutme h3 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+#aboutme p {
+  font-family: 'Poiret One', cursive;
+  font-size: 22px;
+}
+#project-title{
+  margin-top: 10px;
+}
+#projects {
+  background: dodgerblue;
+  text-align: center;
+}
+
+#projects-title {
+  font-family: 'Poiret One', cursive;
+  font-style: bold;
+}
+.images {
+  height: 100%;
+  width: 100%;
+}
+#project-cards {
+  margin-top: 30px;
+}
+
+/*about me page*/
+.content {
+  text-align: center;
+}
+
+
+
+#logo {
+  font-family: 'Poiret One', cursive;
+  font-size: 50px;
+}
