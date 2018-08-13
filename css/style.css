@@ -9,7 +9,6 @@
 }
 .header {
   text-align: center;
-
 }
 
 .top-container {
@@ -19,16 +18,24 @@
   width: 100%;
   margin-top: 100px;
   margin-bottom: 10px;
+}
+#intro{
 
 }
 
 nav {
   width: 100%;
   position: fixed;
-  background: royalblue;
+  background: #4e709d;
+
 }
 #profile-pic{
-  border-radius: 30%;
+  border-radius: 2%;
+  border: solid 1px 2px 2px 5px #89a4c7;
+  box-shadow: 5px 5px 5px #888888;
+  max-width: 30%;
+  margin-left: 40px;
+
 }
 
 .main {
@@ -37,55 +44,75 @@ nav {
 
 .links {
   text-align: center;
-  background: gray;
-}
-#profile-pic{
-  max-width: 40%;
-
+  background: #cdd5e0;
 }
 
 #aboutme {
-  background: midnightblue;
+  border: solid 1px  #89a4c7;
+  background: #f5b17b;
   color: white;
   max-width: 500px;
   display: inline-flex; 
-  padding-left: 5%;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  box-shadow: 5px 10px 20px #888888;
+  margin-bottom: 10px;
+
 }
 
 #aboutme h3 {
-  font-family: 'Permanent Marker', cursive;
+  font-family: fantasy;
 }
 
 #aboutme p {
-  font-family: 'Poiret One', cursive;
+  font-family: fantasy;
   font-size: 22px;
 }
 #project-title{
   margin-top: 10px;
 }
 #projects {
-  background: dodgerblue;
+  background: #89a4c7;
   text-align: center;
   width: 100%;
+
 }
 
+
 #projects-title {
-  font-family: 'Poiret One', cursive;
+  margin-top: 10px;
+  font-family: fantasy;
   font-style: bold;
 }
 .images {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 320px;
+  z-index: 1;
+  box-shadow: 5px 10px 10px #4e709d;
+  margin: 10px;
+
 }
 #project-cards {
   margin-top: 30px;
+  margin-bottom: 70px;
+/*  box-shadow: 5px 10px 50px #4e709d;
+*/
+}
+.card-image{
+margin-bottom: 20px;
+margin-top: 20px;
 }
 
 /*about me page*/
 .content {
   text-align: center;
 }
+.card{
+  margin-left: 40px;
+  margin-right: 40px;
 
+}
 
 
 #logo {
@@ -94,8 +121,41 @@ nav {
 }
 
 .page-footer{
+  background: #4e709d;
   width: 100%;
   display: flex;
-  justify-content: space-around;
-  margin-left: 40px; 
+  justify-content: space-between; 
+  text-align: center;
+  font-size: 30px;
+}
+
+ul{ 
+  list-style-type: none;
+  color
+ }
+
+.footer-copyright{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: #4e709d;
+  padding-bottom: 80px;
+  color: white;
+
+}
+a:link {
+color: #ffa258;
+}
+a:visited {
+color: #ffa258;
+}
+a:hover {
+color: #ff3300;
+}
+.container{
+  color: white;
+  margin-top: 20px;
+  padding-top: 20px;
+  width: 100%;
+  margin-bottom: -40px;
 }
