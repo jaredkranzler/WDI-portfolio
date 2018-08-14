@@ -21,6 +21,10 @@
   background: white;
 }
 
+#intro{
+  max-width: 100%;
+}
+
 nav {
   width: 100%;
   position: fixed;
@@ -32,8 +36,9 @@ nav {
   border-radius: 2%;
   border: solid 1px 2px 2px 5px #1A3E4C;
   box-shadow: 0px 0px 4px lightgrey;
-  max-width: 40%;
+  max-width: 50%;
   margin-left: 40px;
+  max-height: 100%;
 }
 
 .main {
@@ -49,13 +54,13 @@ nav {
   border: solid 1px  lightgrey;
   background: #1A3E4C;
   color: white;
-  max-width: 500px;
+  max-height: 100%;
   padding-top: 20px;
   padding-left: 40px;
   padding-bottom: 10px;
   box-shadow: 5px 10px 20px #092834;
   margin-bottom: 10px;
-
+  margin-left: 30px;
 }
 
 #aboutme h3 {
@@ -64,7 +69,7 @@ nav {
 
 #aboutme p {
   font-family: fantasy;
-  font-size: 22px;
+  font-size: 100%;
 }
 #project-title{
   margin-top: 10px;
@@ -124,8 +129,6 @@ margin-top: 20px;}
   justify-content: space-between;
   box-shadow: 5px 10px 10px #092834;
   margin-bottom: 20px;
-  margin-left: 50px;
-  margin-right: 20px
 
 }
 
