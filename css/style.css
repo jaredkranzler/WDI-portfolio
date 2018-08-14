@@ -80,6 +80,7 @@ nav {
   display: inline-flex;
   justify-content: center;
   max-width: 100%;
+  margin-left: 7px;
 }
 #projects {
   background: url('');
@@ -114,6 +115,7 @@ nav {
   padding-top: 40px;
   padding-bottom: 40px;
   background: #1A3E4C;
+  margin-left: 15px;
 
 }
 .card-image{
@@ -129,7 +131,7 @@ margin-top: 20px;}
   justify-content: space-between;
   box-shadow: 5px 10px 10px #092834;
   margin-bottom: 20px;
-
+  margin-left: 2opx;
 }
 
 
@@ -146,6 +148,7 @@ margin-top: 20px;}
   text-align: center;
   font-size: 12px;
   margin-top: -20px;
+  padding-bottom: 70px;
 }
 
 .footer-copyright{
@@ -157,6 +160,8 @@ margin-top: 20px;}
   color: white;
   font-size: 10px;
   width: 103%;
+  padding-bottom: 80px;
+  border-top: solid 1px black;
 }
 
 a:link {
