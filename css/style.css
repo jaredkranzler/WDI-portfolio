@@ -19,6 +19,7 @@
   margin-top: 100px;
   margin-bottom: 10px;
   background: white;
+  margin-right: 20px;
 }
 
 #intro{
@@ -56,11 +57,13 @@ nav {
   color: white;
   max-height: 100%;
   padding-top: 20px;
-  padding-left: 40px;
-  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-bottom: 5px;
   box-shadow: 5px 10px 20px #092834;
   margin-bottom: 10px;
-  margin-left: 30px;
+  margin-left: 40px;
+  margin-right: 10px;
+  padding-right: 20px;
 }
 
 #aboutme h3 {
@@ -149,6 +152,7 @@ margin-top: 20px;}
   font-size: 12px;
   margin-top: -20px;
   padding-bottom: 70px;
+  padding-right: 40px;
 }
 
 .footer-copyright{
@@ -162,6 +166,8 @@ margin-top: 20px;}
   width: 103%;
   padding-bottom: 80px;
   border-top: solid 1px black;
+  padding-right: 40px;
+
 }
 
 a:link {
