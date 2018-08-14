@@ -32,9 +32,8 @@ nav {
   border-radius: 2%;
   border: solid 1px 2px 2px 5px #1A3E4C;
   box-shadow: 0px 0px 4px lightgrey;
-  max-width: 30%;
+  max-width: 40%;
   margin-left: 40px;
-
 }
 
 .main {
@@ -72,9 +71,10 @@ nav {
 }
 .gif{
   height: 300px;
-  width: 400px;
+  width: 600px;
   display: inline-flex;
   justify-content: center;
+  max-width: 100%;
 }
 #projects {
   background: url('');
@@ -113,19 +113,19 @@ nav {
 }
 .card-image{
 margin-bottom: 20px;
-margin-top: 20px;
+margin-top: 20px;}
 }
-
 /*about me page*/
 .content {
-
   text-align: center;
 }
 .card{
   display: inline-flex;
   justify-content: space-between;
   box-shadow: 5px 10px 10px #092834;
-
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 20px
 
 }
 
@@ -137,16 +137,13 @@ margin-top: 20px;
 
 .page-footer{
   background: #092834;
-  width: 100%;
+  width: 103%;
   display: flex;
   justify-content: space-between; 
   text-align: center;
   font-size: 12px;
   margin-top: -20px;
 }
-
-
-
 
 .footer-copyright{
   display: flex;
@@ -156,6 +153,7 @@ margin-top: 20px;
   padding-bottom: 60px;
   color: white;
   font-size: 10px;
+  width: 103%;
 }
 
 a:link {
